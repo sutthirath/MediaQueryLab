@@ -1,0 +1,415 @@
+body {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: fit-content(10%) fit-content(10%) auto fit-content(10%) fit-content(10%);
+    grid-template-areas: 
+    "nav        search      logo        cart        signin"
+    "hero1      hero1       hero1       hero1       hero1"
+    "product1   product1    product1    product1    product1"
+    "product2   product2    product2    product2    product2"
+    "article1   article1    article1    article1    article1"
+    "article2   article2    article2    article2    article2"
+    "hero2      hero2       hero2       hero2       hero2"
+    "product3   product3    product3    product3    product3"
+    "download1  download1   download1   download1   download1"
+    "product4   product4    product4    product4    product4"
+    "article3   article3    article3    article3    article3"
+    "hero3      hero3       hero3       hero3       hero3"
+    "social     social      social      social      social"
+    "footer     footer      footer      footer      footer"
+    ;
+}  
+
+#nav {
+    grid-area: nav;
+}
+
+#search {
+    grid-area: search;
+}
+
+#logo {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#cart {
+    grid-area: cart;
+}
+
+#signin {
+    grid-area: signin;
+}
+
+.top {
+    max-width: 5em;
+    min-width: .1em;
+    max-height: 4em;
+    min-height: .1em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 32em;
+    min-width: .1em;
+    max-height: 40em;
+    min-height: .1em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sections {
+    max-width: 32em;
+    min-width: .1em;
+    max-height: 40em;
+    min-height: .1em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#hero1 {
+    grid-area: hero1;
+}
+
+#product1 {
+    grid-area: product1;
+}
+
+#product2 {
+    grid-area: product2;
+}
+
+#article1 {
+    grid-area: article1;
+}
+
+#article2 {
+    grid-area: article2;
+}
+
+#hero2 {
+    grid-area: hero2;
+}
+
+#product3 {
+    grid-area: product3;
+}
+
+#download1 {
+    grid-area: download1;
+}
+
+#product4 {
+    grid-area: product4;
+}
+
+#article3 {
+    grid-area: article3;
+}
+
+#hero3 {
+    grid-area: hero3;
+}
+
+#social {
+    grid-area: social;
+    max-width: 32em;
+    min-width: .1em;
+    max-height: 5em;
+    min-height: .1em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#footer {
+    grid-area: footer;
+    max-width: 32em;
+    min-width: .1em;
+    max-height: 5em;
+    min-height: .1em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 859px) {
+
+    body {
+        display: grid;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-columns: fit-content(10%) fit-content(10%) auto fit-content(10%) fit-content(10%);
+        grid-template-areas: 
+        "nav        search      logo        cart        signin"
+        "hero1      hero1       hero1       hero1       hero1"
+        "product1   product1    .           product2    product2"   
+        "article1   article1    .           article2    article2"
+        "hero2      hero2       hero2       hero2       hero2"
+        "product3   product3    .           download1   download1"
+        "product4   product4    .           article3    article3"
+        "hero3      hero3       hero3       hero3       hero3"
+        "social     social      social      social      social"
+        "footer     footer      footer      footer      footer"
+        ;
+    }  
+
+    #nav {
+        grid-area: nav;
+    }
+    
+    #search {
+        grid-area: search;
+    }
+    
+    #logo {
+        grid-area: logo;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #cart {
+        grid-area: cart;
+    }
+    
+    #signin {
+        grid-area: signin;
+    }
+    
+    .top {
+        max-width: 5em;
+        min-width: .1em;
+        max-height: 3em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .main {
+        max-width: 100%;
+        min-width: .1em;
+        max-height: 60em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .sections {
+        max-width: 38em;
+        min-width: .1em;
+        max-height: 40em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #hero1 {
+        grid-area: hero1;
+    }
+
+    #product1 {
+        grid-area: product1;
+    }
+    
+    #product2 {
+        grid-area: product2;
+    }
+    
+    #article1 {
+        grid-area: article1;
+    }
+    
+    #article2 {
+        grid-area: article2;
+    }
+    
+    #hero2 {
+        grid-area: hero2;
+    }
+    
+    #product3 {
+        grid-area: product3;
+    }
+    
+    #download1 {
+        grid-area: download1;
+    }
+    
+    #product4 {
+        grid-area: product4;
+    }
+    
+    #article3 {
+        grid-area: article3;
+    }
+    
+    #hero3 {
+        grid-area: hero3;
+    }
+    
+    #social {
+        grid-area: social;
+        max-width: 32em;
+        min-width: .1em;
+        max-height: 5em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #footer {
+        grid-area: footer;
+        max-width: 32em;
+        min-width: .1em;
+        max-height: 5em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    body {
+        display: grid;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-columns: fit-content(10%) fit-content(10%) fit-content(10%) fit-content(10%) fit-content(10%);
+        grid-template-areas: 
+        "nav        search      logo        cart        signin"
+        "hero1      hero1       hero1       hero1       hero1"
+        "product1   article1    .           product2    article2"   
+        "product1   article1    .           product2    article2"
+        "hero2      hero2       hero2       hero2       hero2"
+        "product3   product4    .           download1   article3"
+        "product3   product4    .           download1   article3"
+        "hero3      hero3       hero3       hero3       hero3"
+        "social     social      social      social      social"
+        "footer     footer      footer      footer      footer"
+        ;
+    }  
+
+    #nav {
+        grid-area: nav;
+    }
+    
+    #search {
+        grid-area: search;
+    }
+    
+    #logo {
+        grid-area: logo;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #cart {
+        grid-area: cart;
+    }
+    
+    #signin {
+        grid-area: signin;
+    }
+    
+    .top {
+        max-width: 5em;
+        min-width: .1em;
+        max-height: 4em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .main {
+        max-width: 100%;
+        min-width: .1em;
+        max-height: 60em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .sections {
+        max-width: 20em;
+        min-width: .1em;
+        max-height: 40em;
+        min-height: .1em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    #hero1 {
+        grid-area: hero1;
+    }
+
+    #product1 {
+        grid-area: product1;
+    }
+    
+    #product2 {
+        grid-area: product2;
+    }
+    
+    #article1 {
+        grid-area: article1;
+    }
+    
+    #article2 {
+        grid-area: article2;
+    }
+    
+    #hero2 {
+        grid-area: hero2;
+    }
+    
+    #product3 {
+        grid-area: product3;
+    }
+    
+    #download1 {
+        grid-area: download1;
+    }
+    
+    #product4 {
+        grid-area: product4;
+    }
+    
+    #article3 {
+        grid-area: article3;
+    }
+    
+    #hero3 {
+        grid-area: hero3;
+    }
+    
+    #social {
+        grid-area: social;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    #footer {
+        grid-area: footer;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+}
