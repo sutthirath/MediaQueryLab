@@ -1,3 +1,4 @@
+
 body {
     display: grid;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
@@ -53,24 +54,22 @@ body {
     margin: 0 auto;
 }
 
+img {
+    text-align: center;
+}
+
 .main {
-    max-width: 32em;
+    max-width: 100%;
     min-width: .1em;
     max-height: 40em;
     min-height: .1em;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .sections {
-    max-width: 32em;
+    max-width: 100%;
     min-width: .1em;
     max-height: 40em;
     min-height: .1em;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
 }
 
 #hero1 {
@@ -119,27 +118,23 @@ body {
 
 #social {
     grid-area: social;
-    max-width: 32em;
+    max-width: 100%;
     min-width: .1em;
     max-height: 5em;
     min-height: .1em;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+  
 }
 
 #footer {
     grid-area: footer;
-    max-width: 32em;
+    max-width: 100%;
     min-width: .1em;
     max-height: 5em;
     min-height: .1em;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+   
 }
 
-@media only screen and (min-width: 859px) {
+@media only screen and (min-width: 720px) {
 
     body {
         display: grid;
@@ -263,9 +258,6 @@ body {
         min-width: .1em;
         max-height: 5em;
         min-height: .1em;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
     }
     
     #footer {
@@ -274,9 +266,6 @@ body {
         min-width: .1em;
         max-height: 5em;
         min-height: .1em;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
     }
 }
 
